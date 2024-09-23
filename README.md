@@ -60,11 +60,11 @@ The key goals of this project are to:
    ```bash
    git clone https://github.com/your-repo/n-gram-language-model.git
    cd n-gram-language-model
-   ```bash
+
 2. **Install dependencies:**
    Install necessary Python libraries (e.g., nltk, numpy, etc.) by running:
-   ```bash
-   python ngram_model.py --n 3 --train data/train.txt --test data/test.txt
-   ```bash
+   ```python
+   pip install -r requirements.txt
+
 4. **Run the n-gram model:**
    After installing the necessary packages, we can run the Python notebook 
